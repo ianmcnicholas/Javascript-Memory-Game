@@ -63,7 +63,7 @@ function checkProgress() {
 
   if (successfulTurn === true && userClickedPattern.length === gamePattern.length) {
     userClickedPattern = [];
-    setTimeout(nextSequence, 1000);
+    setTimeout(nextSequence, 700);
   }
 }
 
